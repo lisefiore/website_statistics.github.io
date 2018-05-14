@@ -1,4 +1,6 @@
 ---
-title: "Prerequisites"
+title: "Pre-requisites"
 output: html_document
 ---
+
+ BAE 200 or permission of instructor is required to take the course. No background in computing is required.

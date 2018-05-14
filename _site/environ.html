@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Environment</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BAE 495/590</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="index.html">Overview</a>
+    </li>
+    <li>
+      <a href="syllabus.html">Syllabus</a>
+    </li>
+    <li>
+      <a href="prerequis.html">Pre-requisites</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="about.html">Lab Assignments</a>
+</li>
+<li>
+  <a href="Finalprojects.html">Final Projects</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Datasets
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="agri.html">Agriculture, forestry, and fisheries</a>
+    </li>
+    <li>
+      <a href="environ.html">Environment</a>
+    </li>
+    <li>
+      <a href="other.html">Other relevant data</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="contacts.html">Contacts</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Environment</h1>
+
+</div>
+
+
+<p><br/><br/><br/> <img src="grdc.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>Global Runoff Data Centre – riverine runoff data for sites across the globe</strong> * <strong>Spatial resolution</strong>: point * <strong>Temporal resolution</strong>: varies by location * <strong>Web</strong>: <a href="http://www.bafg.de/GRDC/EN/Home/homepage_node.html" class="uri">http://www.bafg.de/GRDC/EN/Home/homepage_node.html</a></p>
+<p><br/><br/><br/><br/><br/><br/><br />
+<img src="epa.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>EPA National Air Emissions Monitoring Study – air quality and emissions data from select animal feeding operations in CA, IA, IN, KY, NC, NY, OK, TX, WA, and WI</strong></p>
+<ul>
+<li><strong>Spatial resolution</strong>: point</li>
+<li><strong>Temporal resolution</strong>: varies by location</li>
+<li><strong>Web</strong>: <a href="https://archive.epa.gov/airquality/afo2012/web/html/index.html" class="uri">https://archive.epa.gov/airquality/afo2012/web/html/index.html</a></li>
+</ul>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br />
+<img src="estuary.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>National Estuarine Research Reserve System Wide Monitoring Program – water quality data from estuarine sites across the US</strong> * <strong>Spatial resolution</strong>: point * <strong>Temporal resolution</strong>: varies by location, but many are 15 minute from 2002-2018 * <strong>Web</strong>: <a href="http://cdmo.baruch.sc.edu/" class="uri">http://cdmo.baruch.sc.edu/</a></p>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> <img src="ocean.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>Ocean Conservancy’s International Coastal Cleanup dataset – marine debris (aka trash) collected across freshwater and coastal sites, reported by in categories of debris type; sites include locations from all over the world, but are mostly concentrated in the US</strong></p>
+<ul>
+<li><strong>Spatial resolution</strong>: point</li>
+<li><strong>Temporal resolution</strong>: varies by location</li>
+<li><strong>Web</strong>: <a href="http://archive.coastalcleanupdata.org/datacollection/" class="uri">http://archive.coastalcleanupdata.org/datacollection/</a></li>
+<li><strong>Additional notes</strong>: You will have to create an account to download the data, but the Ocean Conservancy will not share your info with others.</li>
+</ul>
+<p><br/><br/><br/><br/><br/><br/></p>
+<p><img src="usgs.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>USGS Streamflow – flow data from streams and rivers across the US</strong></p>
+<ul>
+<li><strong>Spatial resolution</strong>: point</li>
+<li><strong>Temporal resolution</strong>: varies by location</li>
+<li><strong>Web</strong>: <a href="https://waterdata.usgs.gov/nwis/rt" class="uri">https://waterdata.usgs.gov/nwis/rt</a></li>
+</ul>
+<p><br/><br/><br/><br/><br/><br/> <img src="national.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>National Water Quality Monitoring Council</strong></p>
+<ul>
+<li><strong>Spatial resolution</strong>: point</li>
+<li><strong>Temporal resolution</strong>: varies by location Web: <a href="https://www.waterqualitydata.us/" class="uri">https://www.waterqualitydata.us/</a></li>
+</ul>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> <img src="epa.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>EPA Toxics Release Inventory – reported releases of toxic chemicals including location, chemical released, and amount released from across the US</strong></p>
+<ul>
+<li><strong>Spatial resolution</strong>: point</li>
+<li><strong>Temporal resolution</strong>: annual</li>
+<li><strong>Web</strong>: <a href="https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2016" class="uri">https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2016</a></li>
+</ul>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br />
+<img src="NOAA%20logo.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>NOAA North American Drought Monitor – drought indices (Palmer Drought Index and Standard Precipitation Index) for sites across the US</strong></p>
+<ul>
+<li><strong>Spatial resolution</strong>: point</li>
+<li><strong>Temporal resolution</strong>: annual, 1950-2017</li>
+<li><strong>Web</strong>: <a href="https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/indices/" class="uri">https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/indices/</a></li>
+</ul>
+<p><br/><br/><br/><br/><br/><br/> <img src="nc.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>North Carolina Department of Environmental Quality’s Baseflow Estimates – modeled baseflow for streams and rivers across the state</strong></p>
+<ul>
+<li><strong>Spatial resolution</strong>: point</li>
+<li><strong>Temporal resolution</strong>: daily or annual</li>
+<li><strong>Web</strong>: <a href="https://www.ncwater.org/?page=685" class="uri">https://www.ncwater.org/?page=685</a></li>
+</ul>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> <img src="usgs.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>USGS Water Quality &amp; Streamflow Data (NC-specific links) – water quality data for streams and rivers across the state Spatial resolution: point</strong></p>
+<ul>
+<li><strong>Temporal resolution</strong>: varies by variable</li>
+<li><p><strong>Web</strong>: Water quality (<a href="https://waterdata.usgs.gov/nc/nwis/current/?type=quality&amp;group_key=basin_cd" class="uri">https://waterdata.usgs.gov/nc/nwis/current/?type=quality&amp;group_key=basin_cd</a>) and streamflow (<a href="https://waterdata.usgs.gov/nc/nwis/current/?type=flow&amp;group_key=basin_cd" class="uri">https://waterdata.usgs.gov/nc/nwis/current/?type=flow&amp;group_key=basin_cd</a>)</p></li>
+<li><p><strong>Additional notes</strong>: Click on a “Station Number” to view all data available for a particular site, and download “Tab separated” data for easy upload into R</p></li>
+</ul>
+<p><br/><br/><br/><br/><br/><br/> <img src="capfear.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>Cape Fear River Basin Monitoring Coalitions’ Water Quality Data – water quality measurements for several locations along the Lower Cape Fear River</strong></p>
+<ul>
+<li><strong>Spatial resolution</strong>: point</li>
+<li><strong>Temporal resolution</strong>: monthly</li>
+<li><strong>Web</strong>: <a href="http://lcfrp.uncw.edu/riverproject/" class="uri">http://lcfrp.uncw.edu/riverproject/</a></li>
+</ul>
+<p><br/><br/><br/><br/><br/><br/><br />
+<img src="clilmate.png" style="width:30%; margin-right: 20px" align="left"></p>
+<p><strong>North Carolina Climate Office – weather data for sites across NC</strong></p>
+<ul>
+<li><strong>Spatial resolution</strong>: point</li>
+<li><strong>Temporal resolution</strong>: hourly, daily, or monthly</li>
+<li><strong>Web</strong>: <a href="https://climate.ncsu.edu/cronos" class="uri">https://climate.ncsu.edu/cronos</a></li>
+</ul>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

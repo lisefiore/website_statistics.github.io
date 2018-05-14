@@ -10,7 +10,7 @@ text-align: justify}
 
 <br/>
 
-**Statistics BAE 495/590 (Applied Statistics for Environmental and Agricultural Data Analysis)** is a course designed for undergraduate and graduate students who need to diligently apply proper statistical methodology to **solve real-world problems** in environmental and agricultural fields. Fundamental and practical statistical concepts are covered and are applied in several areas of application. Students will also manage and analyze data by coding in **R**, an open-source programming language. This course was elaborated by compiling free references and public data sources giving all the materials needed to students. 
+**Statistics BAE 495/590 (Applied Statistics for Environmental and Agricultural Data Analysis)** is a course designed for undergraduate and graduate students who need to diligently apply the proper statistical methodology to **solve real-world problems** in environmental and agricultural fields. Fundamental and practical statistical concepts are covered and are employed in several areas of application. Students will also manage and analyze data by coding in **R**, an open-source programming language. This course was elaborated by compiling free references and public data sources and offers all the materials needed to students. 
 
 <style>
 body {
@@ -20,12 +20,12 @@ text-align: justify}
 <br/>
 --------
 # Learning outcomes
-Upon completion of the course, student will have the follwing knowledge and  skills:
+Upon completion of the course, students will have the following knowledge and  skills:
 
 * Demonstrate a deep understanding and usage of basic statistical concepts.
-* Evaluate and interprete findings on environmental/agricultural system dynamics through
-basic statistical analyses of environmental/agricultural data.
-* Demonstrate their ability to synthetize information and findings of analysis in written reports.
+* Evaluate and interpret findings on environmental/agricultural system dynamics through
+fundamental statistical analyses of environmental/agricultural data.
+* Demonstrate their ability to synthesize information and conclusions of analysis in written reports.
 * Produce R code for data management, analysis, and visualization.
 
 <br/>
@@ -41,36 +41,36 @@ text-align: justify}
 
 <br/><br/>
 
-The students will be taught **statistics** using **real datasets** to solve  **agricultural and environmental** problems. Real world examples and datasets requiring R programming will be used to test and implement basic statistical analysis concepts. We believe that this approach will help students to incorporate statistics into their general education curriculum. 
+The students will be taught **statistics** using **real datasets** to solve  **agricultural and environmental** problems. Real-world examples and datasets requiring R programming will be used to test and implement basic statistical analysis concepts. We believe that this approach will help students to incorporate statistics into their general education curriculum. 
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 #### **Importance of statistics in engineering and environmental fields**
 
-Statistics is a branch in mathematics science that collect, analyse, and make inferences from data. Statistics is the core to many  areas in agricultural and environmental sciences that involve research and **decision-making**. This science is used to communicate and interpret findings from data analysis. Statistics can be seen as a tool that **supports hypothesis** and gives **credibility** to the methodology used. Statistics in agricultural and environmental sciences covers several types of study:
+Statistics is a branch of mathematics science that collect, analyze, and make inferences from data. Statistics is the core of many areas in agricultural and environmental sciences that involve research and **decision-making**. This science is used to communicate and interpret findings from data analysis. Statistics can be seen as a tool that **supports hypothesis** and gives **credibility** to the methodology used. Statistics in agricultural and environmental sciences covers several types of study:
 
-* Analyse the present state of resources (e.g., harvested crops, livestocks assessment).
-* Identify anomalies (e.g., air quality change, groudwater contamination).
+* Analyse the present state of resources (e.g., harvested crops, livestock assessment).
+* Identify anomalies (e.g., air quality change, groundwater contamination).
 * Test hypothesis using observed data.
 * Perform estimations of parameters and predictions.
+ 
  
 <br/><br/>
 
 #### **Use of real world data**
 
-Artifial and synthetic data are often used to demonstrate statistical concepts and methods in course and in most of the textbooks. Artificial data are often idealized and composed of few values that are not representive of real datasets. This traditional teaching approach does not confront students to the context of real world and research. The course aims to fill this gap by using only **real-world datasets**. These data help students to understand *why* and *how* statistics are applied to real world context. 
-
+Artificial and synthetic data are often used to demonstrate statistical concepts and methods in traditional statistics course. Artificial data are often idealized and composed of few values that are not representative of real datasets. This teaching approach does not confront students in the context of real-world problems and questions. The course aims to fill this gap by using only **real-world datasets**. These data help students to understand **why** and **how** statistics are applied to a real-world context. 
 <br/><br/>
 
 #### **Use of R**
 
 <img src="Rlogo.png" style="width:25%; margin-right: 20px" align="left">
 
-Real world datasets are often composed to thousands of data that does not allow students to compute statistical calculi by hand or by **excel**. Statistical software were developed to decrease the computing time and the tediousity of calculi. For this course, RStudio was chosen. RStudio is a free and open-source integrated development environment (IDE) for R that is a programming language for statistical computing and graphics. R is gaining in popularity and can handle large and complex data. This program is well-maintained, updated, and supported making it reliable.  This software can be downloaded [here](https://www.rstudio.com/products/RStudio/).
+Real-world datasets are often composed of thousands of data that does not allow students to compute statistical calculi by hand or by calculi spreadsheet. Statistical software was developed to decrease the computing time and the tedious of computations. For the course, RStudio will be used. RStudio is a free and open-source integrated development environment (IDE) for R that is a programming language for statistical computing and graphics. R is gaining in popularity and can handle large and complex data. This program is well-maintained, updated, and supported making it reliable.  This software can be downloaded [here](https://www.rstudio.com/products/RStudio/).
 
-Real world data are often not ready to be used directly and need to be manipulated before conducting analysis. With RStudio, students will:
+Real-world data are often not ready to be used directly and need to be manipulated before conducting analyses. With RStudio, students will:
 
-* Undersdand the structure of the datasets used.
+* Understand the structure of the datasets used.
 * Arrange and manage data.
 * Perform visualizations.
 * Explore data analysis.

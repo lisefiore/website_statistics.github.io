@@ -1,0 +1,14 @@
+---
+title: "Other relevant data"
+output: html_document
+---
+
+<br/><br/><br/> 
+<img src="census.png" style="width:30%; margin-right: 20px" align="left">
+
+**Census Bureau – demographic and population data**
+
+* **Spatial resolution**: town, county, metropolitan area, state, nation
+* **Temporal resolution**: varies from annual to decadal
+* **Web**: https://www.census.gov/topics/population/data.html
+

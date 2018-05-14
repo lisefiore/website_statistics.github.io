@@ -1,6 +1,6 @@
-name: "BAE 495 025"
+name: "BAE 495/590"
 navbar:
-  title: "BAE 495 025"
+  title: "BAE 495/590"
   left:
     - text: "About"
       href: index.html
@@ -9,7 +9,7 @@ navbar:
           href: index.html
         - text: "Syllabus"
           href: syllabus.html
-        - text: "Prerequisites"
+        - text: "Pre-requisites"
           href: prerequis.html
     - text: "Lab Assignments"
       href: about.html
@@ -17,6 +17,13 @@ navbar:
       href: Finalprojects.html
     - text: "Datasets"
       href: datasets.html
+      menu: 
+        - text: "Agriculture, forestry, and fisheries"
+          href: agri.html
+        - text: "Environment"
+          href: environ.html
+        - text: "Other relevant data"
+          href: other.html
     - text: "Contacts"
       href: contacts.html
 

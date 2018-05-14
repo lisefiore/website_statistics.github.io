@@ -14,7 +14,7 @@ text-align: justify}
 
 Dr. Natalie Nelson is the instructor of BAE 495 025 (Applied Statistics for Environmental and Agricultural Data Analysis). She is an assistant professor of Data Analytics and Integrated Modeling in the [Biological & Agricultural Engineering Department](https://www.bae.ncsu.edu) at [North Carolina State University](https://www.ncsu.edu). 
 
-She analyses data to understand complex biological system dynamics ranging from agricultural to aquatic resources. She is using statistical modeling and machine learning techniques to solve  temporal and geospatial research questions. Natalie Nelson has a strong background in R and is really passionate to transmit her knowledge with this software with R. For more details about Natalie Nelson, you can visit her website [here](http://nelson.rbind.io).
+She analyses data to understand complex biological system dynamics ranging from agricultural to aquatic resources. She is using statistical modeling and machine learning techniques to solve temporal and geospatial research questions. Natalie Nelson has a strong background in R and is passionate to transmit her knowledge to her students. For more details about Natalie Nelson; you can visit her website [here](http://nelson.rbind.io).
 <br/><br/>
 
 <br/>
