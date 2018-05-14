@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Lab Assignments</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BAE 495 025</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="index.html">Overview</a>
+    </li>
+    <li>
+      <a href="syllabus.html">Syllabus</a>
+    </li>
+    <li>
+      <a href="prerequis.html">Prerequisites</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="about.html">Lab Assignments</a>
+</li>
+<li>
+  <a href="Finalprojects.html">Final Projects</a>
+</li>
+<li>
+  <a href="datasets.html">Datasets</a>
+</li>
+<li>
+  <a href="contacts.html">Contacts</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Lab Assignments</h1>
+
+</div>
+
+
+<p>Statistical concepts will be taught during lectures and applied weekly during computer laboratory sessions. During computer labs hours, <em>six labs summary</em> and <em>four lab reports</em> will be completed and finished at home by students. The purpose of these laboratoy sessions is to apply statistical concepts and R code using real worlds data and to produce high quality visualizations. All the lab assignments followed the following procedures usually applied in research methodology:</p>
+<p><img src="flow.png" style="width:80%; align="center"></p>
+<p>Because this course is an introduction to statistics, the research problems/engineering questions (1), the choice of the variable to measure (2), as well as the choice of the methodology and the collection of data (3) are given in background. Background information is esssential for students to understand the purpose and the reason to conduct statistical analysis on the data. In addition, the use of real data relevant to students’fields of education create a dynamic environment where they can find interests in learning statistics.</p>
+<p><br/></p>
+<div id="lab-summaries" class="section level3">
+<h3><strong>Lab summaries</strong></h3>
+<p>Through the course semester, six lab summaries will be completed. Each lab summaries used real datasets collected online or by researchers in North Carolina State University. Students are guided to organize and visualize data in order to apply R codes and summarize data. Each assignment reports:</p>
+<ul>
+<li>The source of the data.</li>
+<li>The method used to collect data.</li>
+<li>The purpose of the data collection.</li>
+<li>Questions that need to be answered by student after analysing data.</li>
+</ul>
+<p>The six lab summaries can be accessed below:</p>
+<ol style="list-style-type: decimal">
+<li><p><em>Summary 1</em>: <a href="file:///Applications/Stattistic%20class/Problem%20sessions/Problem%20session%201%20-%20Exploratory%20Data%20Analysis-20180509/Session1-EDA.html"><strong>Exploratory Data Analysis</strong></a>. The dataset analysed is the Air Quality Index (AQI) values measured in 2017 accross over 800 counties in the United States are presented. This assignment allow students to explore large datasets and applied basic visualization techniques with R.</p></li>
+<li><p><em>Summary 2</em>: <a href=""><strong>Data visualization with ggplot2</strong></a>. The dataset analyzed in this exercise was curated by the Food and Agricultural Organization (FAO) of the United Nations through the FAOSTAT program. Students will evaluate sweet potato yield (hectogram/hectare), area harvested (hectares), and production quantity (tons) globally</p></li>
+<li><p><em>Summary 3</em>: <a href=""><strong>Importing and Cleaning Data</strong></a>. The dataset analysed is the ere collected in 2011 and 2012 as part of a study lead by Dr. Anders Huseth (Entomology and Plant Pathology, NCSU) and Dr. Russell Groves (Entomology, UW-Madison). In this assignment, students will analyse the neonicotinoid datasets to investigate which applixation strategy and active ingredient in pestices contribute the most to the groundwater quality degradation.</p></li>
+<li><p><em>Summary 4</em>:<a href=""><strong>Data wrangling</strong></a>. Data analyzed are from the Department of the Interior (US Geological Survey and Bureau of Reclamation) and include flow (cfs) measurements from three locations along the Colorado River: Lake Powell, Lees Ferry, and the US-Mexico border. Students will analyse hydrologic data from the Colorado River system.</p></li>
+<li><p><em>Summary 5</em>:<a href=""><strong>R check-in</strong></a>. Data analyzed are from the US Geological Survey and include total nitrogen (N) and phosphorus (P) mass (kg) applied to the land surface in 1987 via fertilizer(applied to farm and non-farm settings), livestock (confined and unconfined) manure, and atmospheric deposition (N only). Students will reorganize and group data by variables to create high quality plots.</p></li>
+<li><p><em>Summary 6</em>: <a href=""><strong>R check-in part 2, calculating quantiles</strong></a>. Data analyzed are from the NOAA National Estuarine Research Reserve’s System Wide Monitoring Program and include water depth (m), dissolved oxygen (mg/L), salinity in practical salinity units, and water temperature (°C). During one year, data were measured every 15 minutes. Students will reorganize and group data by variables to create high quality plots. In addition, they are expected to plot cumulative distribution functions and plot Q-Q plots of the observed data.</p></li>
+</ol>
+</div>
+<div id="lab-reports" class="section level3">
+<h3><strong>Lab reports</strong></h3>
+<p>About two months after the beginning of the semester, students should have acquired enough R computing skills to be independant in their statistical analysis. <em>Four lab reports</em> will be completed. For each of the report it is expected that students produce a technical report inluding the following questions:</p>
+<ol style="list-style-type: decimal">
+<li>Abstrat</li>
+<li>Introduction</li>
+<li>Methods</li>
+<li>Results</li>
+<li>Recommendations</li>
+</ol>
+<p>During these assignments, students are assumed as engineers hired in an engineering firm. Students should answer and solve research questions using statistical and R coding concepts learnt during lectures hours and lab summaries, respectively. As for the lab summaries, only real data are used.The four lab reports can be accessed below:</p>
+<ol style="list-style-type: decimal">
+<li><p><em>Lab report 1</em>: <a href="">** Distribution **</a>.</p></li>
+<li><p><em>Lab report 2</em>: <a href="">** Stochastic Rainfall Simulation **</a>.</p></li>
+<li><p><em>Lab report 3</em>: <a href="">** Hypothesis testing **</a>.</p></li>
+<li><p><em>Lab report 4</em>: <a href="">** Linear regression **</a>.</p></li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

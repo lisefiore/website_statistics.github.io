@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Final Projects</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BAE 495 025</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="index.html">Overview</a>
+    </li>
+    <li>
+      <a href="syllabus.html">Syllabus</a>
+    </li>
+    <li>
+      <a href="prerequis.html">Prerequisites</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="about.html">Lab Assignments</a>
+</li>
+<li>
+  <a href="Finalprojects.html">Final Projects</a>
+</li>
+<li>
+  <a href="datasets.html">Datasets</a>
+</li>
+<li>
+  <a href="contacts.html">Contacts</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Final Projects</h1>
+
+</div>
+
+
+<p>At the end of the semester, a final project will be completed by each students. This project aims to combine all the different statistical techniques and R code learnt to analyse real datasets. This project is an individual projects that will evaluate the skills in statistics of students. Each student will choose a dataset of their choice or from one given in class. Students should conduct analysis in R and write a report and perform a presentation of their findings.</p>
+<div id="reports-of-the-final-projects" class="section level2">
+<h2>Reports of the final projects</h2>
+<p>The report should include:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>A background including:</strong> ** A question student is seeking to answer. ** The real-world significance of this question; should include an explanation as to why this is an important question to investigate. This should require some background information (e.g., the state of North Carolina is investing heavily in developing shellfish aquaculture infrastructure, so interest in shellfish harvest trends is high). o Data used in the analysis; should describe the source of the data, measurements, resolution, and any additional information needed to understand the scope and limitations of the data.</p></li>
+<li><p><strong>A complete analysis of the dataset chosen:</strong> o Exploratory data analysis – include summary statistics and visualizations that reveal trends in the data. Summary statistics should be presented in a table. At a minimum, 3 visualizations should be included. These visualizations should be distinct in plot type and satisfy the “principles of data visualization.” o Hypothesis testing – include a minimum of one hypothesis test (note: hypothesis testing associated with linear regression does not count). Explain the scientific and statistical hypotheses, and the tests chosen for this analysis. Provide full interpretation of the results. An example scientific hypothesis might be, shellfish harvests dropped after the year 2000. o Linear regression – include a minimum of one linear regression model. Explain why you chose the explanatory variable(s) you did. Include diagnostic plots, significance of intercept and coefficient, and a visualization of the modeled and observed data (modeled and observed plotted in the same figure). Provide full interpretation of the results.</p></li>
+<li><p><strong>Conclusions</strong> o Explain your main findings o Loop back to your original question – did your analysis answer your question? o Describe what other data are needed to perform a more thorough, robust, and in-depth analysis than the one you presented here o What were the drawbacks of the approaches you used in this project? o Loop back to the motivation for this project – how do your results relate to the real-world significance that you outlined?</p></li>
+<li><p><strong>Formatting</strong> o The report should be written as a professional engineering document. The same formatting guidelines that applied to your lab reports will also apply here (e.g., do not use personal pronouns, write appropriate figure captions, etc.).</p></li>
+</ol>
+<p>o R code should be nicely formatted such that Dr. Nelson and Lise can easily follow your steps.</p>
+</div>
+<div id="presentation-of-the-final-projects" class="section level2">
+<h2>Presentation of the final projects</h2>
+<p>Summarize the background, analysis, and conclusions of your project. Presentation should be a maximum of 10 slides, including the title slide. Presentation will be graded with the following criteria: o Slides are nicely-organized o Presenter describes the background and analyses such that the audience understands the overall flow of the project o Presenter provides main findings from the analysis o Presenter demonstrates understanding of the work performed</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

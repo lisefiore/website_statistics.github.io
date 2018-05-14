@@ -1,0 +1,26 @@
+name: "BAE 495 025"
+navbar:
+  title: "BAE 495 025"
+  left:
+    - text: "About"
+      href: index.html
+      menu: 
+        - text: "Overview"
+          href: index.html
+        - text: "Syllabus"
+          href: syllabus.html
+        - text: "Prerequisites"
+          href: prerequis.html
+    - text: "Lab Assignments"
+      href: about.html
+    - text: "Final Projects"
+      href: Finalprojects.html
+    - text: "Datasets"
+      href: datasets.html
+    - text: "Contacts"
+      href: contacts.html
+
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
