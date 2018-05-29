@@ -2,14 +2,13 @@
 title: "Environment"
 output: html_document
 ---
+<img src="capfear.png" style="width:30%; margin-right: 20px" align="left">
 
-<br/><br/><br/> 
-<img src="grdc_logo.png" style="width:30%; align="center">
+**Cape Fear River Basin Monitoring Coalitions’ Water Quality Data – water quality measurements for several locations along the Lower Cape Fear River**
 
-**Global Runoff Data Centre – riverine runoff data for sites across the globe**
 * **Spatial resolution**: point
-* **Temporal resolution**: varies by location
-* **Web**: http://www.bafg.de/GRDC/EN/Home/homepage_node.html
+* **Temporal resolution**: monthly
+* **Web**: http://lcfrp.uncw.edu/riverproject/
 
 <br/><br/><br/><br/><br/><br/>  
 <img src="epa_logo.png" style="width:30%; margin-right: 20px" align="left">
@@ -20,6 +19,20 @@ output: html_document
 * **Temporal resolution**: varies by location
 * **Web**: https://archive.epa.gov/airquality/afo2012/web/html/index.html
 
+**EPA Toxics Release Inventory – reported releases of toxic chemicals including location, chemical released, and amount released from across the US**
+
+* **Spatial resolution**: point
+* **Temporal resolution**: annual
+* **Web**: https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2016
+
+
+<br/><br/><br/> 
+<img src="grdc_logo.png" style="width:30%; align="center">
+
+**Global Runoff Data Centre – riverine runoff data for sites across the globe**
+* **Spatial resolution**: point
+* **Temporal resolution**: varies by location
+* **Web**: http://www.bafg.de/GRDC/EN/Home/homepage_node.html
 
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>  
@@ -30,8 +43,39 @@ output: html_document
 * **Temporal resolution**: varies by location, but many are 15 minute from 2002-2018
 * **Web**: http://cdmo.baruch.sc.edu/
 
+<br/><br/><br/><br/><br/><br/>
+<img src="nwqmc_logo.png" style="width:30%; margin-right: 20px" align="left">
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+**National Water Quality Monitoring Council**
+
+* **Spatial resolution**: point
+* **Temporal resolution**: varies by location Web: https://www.waterqualitydata.us/
+
+<img src="climate_nc_logo.png" style="width:30%; margin-right: 20px" align="left">
+
+**North Carolina Climate Office – weather data for sites across NC**
+
+* **Spatial resolution**: point
+* **Temporal resolution**: hourly, daily, or monthly 
+* **Web**: https://climate.ncsu.edu/cronos
+
+
+<img src="NC_logo.png" style="width:30%; margin-right: 20px" align="left">
+
+**North Carolina Department of Environmental Quality’s Baseflow Estimates – modeled baseflow for streams and rivers across the state**
+
+* **Spatial resolution**: point
+* **Temporal resolution**: daily or annual
+* **Web**: https://www.ncwater.org/?page=685
+
+<img src="noaa_logo.png" style="width:30%; margin-right: 20px" align="left">
+
+**NOAA North American Drought Monitor – drought indices (Palmer Drought Index and Standard Precipitation Index) for sites across the US**
+
+* **Spatial resolution**: point
+* **Temporal resolution**: annual, 1950-2017
+* **Web**: https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/indices/
+
 <img src="ocean_logo.png" style="width:30%; margin-right: 20px" align="left">
 
 **Ocean Conservancy’s International Coastal Cleanup dataset – marine debris (aka trash) collected across freshwater and coastal sites, reported by in categories of debris type; sites include locations from all over the world, but are mostly concentrated in the US**
@@ -51,74 +95,10 @@ output: html_document
 * **Temporal resolution**: varies by location
 * **Web**: https://waterdata.usgs.gov/nwis/rt
 
-
-<br/><br/><br/><br/><br/><br/>
-<img src="nwqmc_logo.png" style="width:30%; margin-right: 20px" align="left">
-
-**National Water Quality Monitoring Council**
-
-* **Spatial resolution**: point
-* **Temporal resolution**: varies by location Web: https://www.waterqualitydata.us/
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<img src="epa_logo.png" style="width:30%; margin-right: 20px" align="left">
-
-**EPA Toxics Release Inventory – reported releases of toxic chemicals including location, chemical released, and amount released from across the US**
-
-* **Spatial resolution**: point
-* **Temporal resolution**: annual
-* **Web**: https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-2016
-
-
-
-<br/><br/><br/><br/><br/><br/><br/><br/>  
-<img src="noaa_logo.png" style="width:30%; margin-right: 20px" align="left">
-
-**NOAA North American Drought Monitor – drought indices (Palmer Drought Index and Standard Precipitation Index) for sites across the US**
-
-* **Spatial resolution**: point
-* **Temporal resolution**: annual, 1950-2017
-* **Web**: https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/indices/
-
-
-
-<br/><br/><br/><br/><br/><br/> 
-<img src="NC_logo.png" style="width:30%; margin-right: 20px" align="left">
-
-**North Carolina Department of Environmental Quality’s Baseflow Estimates – modeled baseflow for streams and rivers across the state**
-
-* **Spatial resolution**: point
-* **Temporal resolution**: daily or annual
-* **Web**: https://www.ncwater.org/?page=685
-
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
-<img src="USGS_logo.png" style="width:30%; margin-right: 20px" align="left">
-
 **USGS Water Quality & Streamflow Data (NC-specific links) – water quality data for streams and rivers across the state Spatial resolution: point**
 
 * **Temporal resolution**: varies by variable
 * **Web**: Water quality (https://waterdata.usgs.gov/nc/nwis/current/?type=quality&group_key=basin_cd) and streamflow (https://waterdata.usgs.gov/nc/nwis/current/?type=flow&group_key=basin_cd)
-
-     
-* **Additional notes**: Click on a “Station Number” to view all data available for a particular site, and download “Tab
-separated” data for easy upload into R
+* **Additional notes**: Click on a “Station Number” to view all data available for a particular site, and download “Tab separated” data for easy upload into R
 
 
-<br/><br/><br/><br/><br/><br/> 
-<img src="capfear.png" style="width:30%; margin-right: 20px" align="left">
-
-**Cape Fear River Basin Monitoring Coalitions’ Water Quality Data – water quality measurements for several locations along the Lower Cape Fear River**
-
-* **Spatial resolution**: point
-* **Temporal resolution**: monthly
-* **Web**: http://lcfrp.uncw.edu/riverproject/
-
-<br/><br/><br/><br/><br/><br/>  
-<img src="climate_nc_logo.png" style="width:30%; margin-right: 20px" align="left">
-
-**North Carolina Climate Office – weather data for sites across NC**
-
-* **Spatial resolution**: point
-* **Temporal resolution**: hourly, daily, or monthly 
-* **Web**: https://climate.ncsu.edu/cronos

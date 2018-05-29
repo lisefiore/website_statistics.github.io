@@ -46,7 +46,6 @@ text-align: justify}
 * **Web**: https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/annual-landings-with-group-subtotals/index
 
 
-
 <img src="usda_logo.png" style="width:25%"; align="center">
 <br/><br/><br/>
 **USDA Census of Agriculture – a comprehensive summary of agricultural activity in the US**
