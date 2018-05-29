@@ -4,7 +4,7 @@ output: html_document
 ---
 
 <br/><br/><br/> 
-<img src="census.png" style="width:30%; margin-right: 20px" align="left">
+<img src="census_logo.jpg" style="width:30%; margin-right: 20px" align="left">
 
 **Census Bureau – demographic and population data**
 
