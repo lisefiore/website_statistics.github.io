@@ -8,7 +8,9 @@ body {
 text-align: justify}
 </style>
 
-<img src="BEFL.png" style="width:25%; align="center">
+<br/><br/>
+<img src="BEFL.png" style="width:30%; align="center">
+<br/><br/>
 
 **Biomass Energy Feedstock Library – compositions of many different agricultural feedstocks (includes % glucane from cellulose and starch, % xylan, % lignin, % total ash, % protein)**
 
@@ -26,7 +28,7 @@ text-align: justify}
 * **Web**: http://www.fao.org/faostat/en/#data 
 * **Additional notes**: Datasets in FAOSTAT include crop,livestock, and forestry production, agricultural inputs, agricultural emissions, and a large suite of agri-environmental indicators (fertilizer, pesticides, temperature change, etc.), among others.
 
-
+<br/><br/>
 <img src="ncda_logo.jpg" style="width:20%; align="center">
 <br/><br/>
 **North Carolina Department of Agriculture & Consumer Service’s Agricultural Water Use Data – agricultural water use data in gallons**
@@ -35,6 +37,7 @@ text-align: justify}
 * **Temporal resolution**: monthly
 * **Web**: http://www.ncagr.gov/stats/environmental/index.htm
 * **Additional notes**: data are in PDF reports
+
 <br/><br/> 
 <img src="noaa_logo.png" style="width:22%; align="center">
 <br/><br/>
@@ -45,7 +48,7 @@ text-align: justify}
 * **Temporal resolution**: annual
 * **Web**: https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/annual-landings-with-group-subtotals/index
 
-
+<br/><br/>
 <img src="usda_logo.png" style="width:25%"; align="center">
 <br/><br/><br/>
 **USDA Census of Agriculture – a comprehensive summary of agricultural activity in the US**

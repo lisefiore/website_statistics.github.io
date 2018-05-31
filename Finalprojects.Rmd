@@ -21,7 +21,7 @@ investing heavily in developing shellfish aquaculture infrastructure, so interes
 
 2. **A complete analysis of the dataset chosen:**
 
-* Students must explore data analysis including **summary statistics** and **relevant visualizations** that reveal trends in the data. In order to huide the students, at least *three visualizations* will be required.
+* Students must explore data analysis including **summary statistics** and **relevant visualizations** that reveal trends in the data. In order to guide the students, at least *three visualizations* will be required.
 
 * Students must conduct at least one hypothesis test that exclude hypotheis testing associated with linear regression. It is expected that they rigorously provide all the scientific and statistical hypotheses. 
 

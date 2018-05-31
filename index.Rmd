@@ -1,5 +1,5 @@
 ---
-title: "BAE 495/590:Applied Statistics for Environmental and Agricultural Data Analysis"
+title: "BAE 495/590: Applied Statistics for Environmental and Agricultural Data Analysis"
 output: html_document
 ---
 

@@ -18,7 +18,7 @@ navbar:
     - text: "Datasets"
       href: datasets.html
       menu: 
-        - text: "Agriculture, forestry, and fisheries"
+        - text: "Agriculture, Forestry, and Fisheries"
           href: agri.html
         - text: "Environment"
           href: environ.html
