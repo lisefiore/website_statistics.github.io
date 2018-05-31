@@ -1,5 +1,5 @@
 ---
-title: "Agriculture, forestry, and fisheries"
+title: "Agriculture, Forestry, and Fisheries"
 output: html_document
 ---
 
