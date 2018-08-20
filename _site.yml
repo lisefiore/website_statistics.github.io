@@ -1,4 +1,5 @@
 name: "BAE 495/590"
+output_dir: "."
 navbar:
   title: "BAE 495/590"
   left:
